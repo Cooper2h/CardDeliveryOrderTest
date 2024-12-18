@@ -31,7 +31,7 @@ public class CardDeliveryOrderTest {
         $("[placeholder='Город']").setValue("Мос");
         $(".menu-item__control").click();
 //        $(".calendar-input__native-control").setValue("13.05.2022");
-        $("[name='name']").setValue("Евгений Поповg");
+        $("[name='name']").setValue("Евгений Попов");
         $("[name='phone']").setValue("+79879879877");
         $(".checkbox__box").click();
         $(withText("Забронировать")).click();
